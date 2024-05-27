@@ -1,73 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hello World</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	 <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"> 
-	 <style type="text/css">
-	 	body{
-	 		font-family: 'Orbitron'
-	 	}
-
-	 	.text-main{
-	 		color:#4a99c8 !important;
-	 	}
-	 	
-	 	.img-1{
-	 		position: fixed;
-	 		filter:opacity(.2);
-	 		bottom:3%;
-	 		right: 3%;
-	 		width: 32%;
-
-	 	}
-
- 		.img-2{
-	 		position: fixed;
-	 		filter:opacity(.3);
-	 		top:18%;
-	 		left: 5%;
-	 		width: 20%;
-	 	}
-
-	 /*	.img-avatar{
-	 		width: 100%;
-			height: 200px;
-			background-image: url('bishma2.jpg');
-			background-position-x: 25%;
-			background-position-y: 53%;
-			background-size: 170%;
-			margin-bottom: 10px;
-			filter: grayscale(30%) opacity(62%);
-			border-radius: 13px;
-	 	}*/
-	 </style>
-</head>
-<body class="bg-dark text-main">
+    <title>Aria Bishma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <style>
+	   body{
+	    margin: 0;
+	    padding: 0;
+	    background-color: white;
+	    font-family: sans-serif;
+	    font-size: 16px;
+	    line-height: 1.4;
+	    color: #333;
+	}
+	#profile_pic{
+	    width: 240px;
+	    height: 240px;
+	    border-radius: 50%;
+	}
 	
-	<img class="img-1" src="https://cdn.pixabay.com/photo/2012/04/10/17/02/pattern-26432_960_720.png">
-	<img class="img-2" src="https://cdn.pixabay.com/photo/2012/04/10/17/02/pattern-26432_960_720.png">
-
-	<div class="container" style="margin-top: 23vh">
-		<div class="row justify-content-center">
-			
-			<div class="col-md-7 " >
-				<div style="border-left: 3px solid ;border-right: 3px solid ;" class="pl-3 bg-outline-success">
-					<p class="m-0">Hello world!, my name is</p>
-					<h2 class="text-left text-white " style="width:auto;">Mochammad Aria Bishma Fauzan</h2>
-					<p>
-						i'am is a fullstack developer. i've create some applications with famous technology like Single Page Application, Progressive Web App, RestFULL API, etc.						
-					</p>
-					<p>
-						Tech Stack : Golang, PHP, Javascript, Jquery, Vuejs, Angular, Python, Bootstrap, Laravel, Codeigniter, YII Framework, Flask, Django, MySQL, MongoDB, Oracle, etc.
-					</p>
-					<p>
-						Email : ariabishma848@gmail.com <br>
-						Whatsapp : +62 8571 8399 332 
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+	hr{
+	    border-top: none;
+	    background-image: linear-gradient(90deg, transparent, #00000057, transparent);
+	    height: 1px;
+	    opacity: .7;
+	}
+   </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="shadow" src="https://avatars.githubusercontent.com/u/34092104?v=4" id="profile_pic">
+                    <div class="d-block ms-3">
+                        <h1>Aria Bishma</h1>
+                        <p>I like to train computer to think and see like human. 🧠🤖💥</p>
+                        <button class="btn btn-outline-secondary">Medium</button>
+                        <button class="btn btn-outline-secondary">Github</button>
+                        <button class="btn btn-outline-secondary">Email</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <p>Hi there 👋. <br> I'm Aria Bishma, but you can call me Aria. <br>I'm a software developer with a strong passion for AI, particularly computer vision and machine learning.</p>
+                <p>Thank you..</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h3>Notable Projects</h3>
+                <ul>
+                    <li>Visual Inspection System (Engine Water Jacket) - PT. Astra Daihatsu Motor</li>
+                    <li>Laboratory Information System - PT. Sarana Medika Mediatek</li>
+                    <li>Money Sharing Platform - CV. Indopride Group</li>
+                    <li>Data importing system - PT. Citraraya Nusatama</li>
+                </ul>   
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h3>Featured writing</h3>
+                <ul>
+                    <li>Membuat Model GPT Menggunakan Tensorflow — (My Machine Learning Notes)</li>
+                </ul>   
+            </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h3>Pet Projects</h3>
+                <ul>
+                    <li>JIPITI - Very small generative pre-trained model</li>
+                    <li>Video based heart-rate detector</li>
+                    <li>CALC-Lang - Toy programming language</li>
+                </ul>   
+            </div>
+        </div>
+    </div>
+</body>
 </html>
